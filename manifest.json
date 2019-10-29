@@ -1,0 +1,249 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Projects/_Docs/Wiki.Net/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.Error.html",
+          "hash": "Gj0XaPHEGCIdQwPzWFdkuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.SearchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.SearchInfo.html",
+          "hash": "3nMLHIkX22ctegez7obgxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.Warning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.Warning.html",
+          "hash": "6srmWSAtGSakPX3Ss8rLYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html",
+          "hash": "7uDtihZtK78ATJgBCGuDzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html",
+          "hash": "YGdDrWgF017nwr5rB1fWuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResult.html",
+          "hash": "vH3hvcfV88GuW6Q05TJKNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html",
+          "hash": "SLzKVdUF+SkkXqrhiILO0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearcher.html",
+          "hash": "pS1lHoqZot4w53Uf2BrPOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CreepysinStudios.WikiDotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CreepysinStudios.WikiDotNet.html",
+          "hash": "nwThMNU3xOJkw4Q1wlkzPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "5xBAX0j4GvYtfBqKBQiGNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Yc0On00UF1nz/GpdvpQ+5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/bexample.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/bexample.html",
+          "hash": "GEevShac3VW5mfqzTcIW0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "guides/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/index.html",
+          "hash": "OPcQdXoVQ9rHoRypLY8vjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "6/Tko771ZURHDZdun/o5Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "6fGK1FZAuTLlwq3kt7fbrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "49MmBKLDVHk7uL0Dd+d+BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
