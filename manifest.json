@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.Error.html",
-          "hash": "129AMiBW1ebaef6iTI8aBg=="
+          "hash": "B4Bfb87Bu8O6kL0BEcwBrQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.SearchInfo.html",
-          "hash": "3+BJigPvXxtvmIz3HxYJPQ=="
+          "hash": "zZL8zTp4XUCgGVK32bHmpg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.Warning.html",
-          "hash": "Pd146T+g/Zailfgm+svdDA=="
+          "hash": "U1M3obyOPU/Af6jy1ZZTzw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html",
-          "hash": "e6kODJfvsHjlh75IwkFhJg=="
+          "hash": "KDXvSuoNczXGuKOGza/6Jw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html",
-          "hash": "hXhffVodT+PlWQKJF463iA=="
+          "hash": "GQBZnOpy1b/q4t5T8PoOYg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResult.html",
-          "hash": "fuB2yB2YtfToCohJCT8UGw=="
+          "hash": "PXL8F7WfmtiKgk2tNpLqWg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html",
-          "hash": "lIBFoQ6f1VzqYdMMDfljEQ=="
+          "hash": "CkR6qa91k/THr6rhT9pSDw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearcher.html",
-          "hash": "yFgVfCONC9wNVhTy3Bsgew=="
+          "hash": "Uu1uARWdF2CcwGiVSVbY9g=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CreepysinStudios.WikiDotNet.html",
-          "hash": "uZI05FK/3VmWSiEmAywcYw=="
+          "hash": "dXh3EBHtJf+TCBpGiJZfsA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "gsAChtWgHWJhKo6D/8cpzQ=="
+          "hash": "VKbDStdF1ZDbITfYYD6jKA=="
         }
       },
       "is_incremental": false,
@@ -152,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/bexample.html",
-          "hash": "/VLvFqm95hs+iO5vlqj3VA=="
+          "hash": "onP8NGCTMRz3T6E0UxeTqg=="
         }
       },
       "is_incremental": false,
@@ -167,7 +167,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/index.html",
-          "hash": "Q8xzGTaXBXYeSuMfLI4K7A=="
+          "hash": "Xgt5hzJ6w+NmYE7J/A8p9Q=="
         }
       },
       "is_incremental": false,
@@ -187,10 +187,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/Icon.png",
+      "source_relative_path": "images/icon.png",
       "output": {
         "resource": {
-          "relative_path": "images/Icon.png"
+          "relative_path": "images/icon.png"
         }
       },
       "is_incremental": false,
@@ -202,7 +202,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ZzzZuIwgnsjgwnx4Jt4WxA=="
+          "hash": "YChjIJg12QMzbjB01cS+ow=="
         }
       },
       "is_incremental": false,
@@ -239,13 +239,6 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -256,6 +249,13 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
