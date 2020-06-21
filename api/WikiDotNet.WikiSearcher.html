@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WikiSearchSettings
+    <title>Class WikiSearcher
    | Wiki.Net Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WikiSearchSettings
+    <meta name="title" content="Class WikiSearcher
    | Wiki.Net Documentation ">
     <meta name="generator" content="docfx 2.47.0.0">
     
@@ -68,19 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings">
+            <article class="content wrap" id="_content" data-uid="WikiDotNet.WikiSearcher">
   
   
-  <h1 id="CreepysinStudios_WikiDotNet_WikiSearchSettings" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings" class="text-break">Class WikiSearchSettings
+  <h1 id="WikiDotNet_WikiSearcher" data-uid="WikiDotNet.WikiSearcher" class="text-break">Class WikiSearcher
   </h1>
-  <div class="markdown level0 summary"><p>A struct containing settings for use when searching with <a class="xref" href="CreepysinStudios.WikiDotNet.WikiSearcher.html">WikiSearcher</a>.
-<a class="xref" href="CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_Search_System_String_CreepysinStudios_WikiDotNet_WikiSearchSettings_">Search(String, WikiSearchSettings)</a></p>
+  <div class="markdown level0 summary"><p>Provides functionality for searching Wikipedia for string, and returns an array of results</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WikiSearchSettings</span></div>
+    <div class="level1"><span class="xref">WikiSearcher</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,25 +105,26 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CreepysinStudios.WikiDotNet.html">CreepysinStudios.WikiDotNet</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="WikiDotNet.html">WikiDotNet</a></h6>
   <h6><strong>Assembly</strong>: Wiki.Net.dll</h6>
-  <h5 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_syntax">Syntax</h5>
+  <h5 id="WikiDotNet_WikiSearcher_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class WikiSearchSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public static class WikiSearcher</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_Namespaces" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.Namespaces">Namespaces</h4>
-  <div class="markdown level1 summary"><p>What namespaces to search in. Default is {0} (default)</p>
+  <a id="WikiDotNet_WikiSearcher_Proxy_" data-uid="WikiDotNet.WikiSearcher.Proxy*"></a>
+  <h4 id="WikiDotNet_WikiSearcher_Proxy" data-uid="WikiDotNet.WikiSearcher.Proxy">Proxy</h4>
+  <div class="markdown level1 summary"><p>An optional proxy to route HTTP requests through when searching</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;int&gt; Namespaces</code></pre>
+    <pre><code class="lang-csharp hljs">public static IWebProxy Proxy { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -134,26 +134,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Net.IWebProxy</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ExactMatch_" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch*"></a>
-  <h4 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ExactMatch" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch">ExactMatch</h4>
-  <div class="markdown level1 summary"><p>Should we only find results that exactly match our search
-Example:
-'Microsoft' results in 'Microsoft'
-'Microsof' results in 'no results'</p>
+  <a id="WikiDotNet_WikiSearcher_UseHttps_" data-uid="WikiDotNet.WikiSearcher.UseHttps*"></a>
+  <h4 id="WikiDotNet_WikiSearcher_UseHttps" data-uid="WikiDotNet.WikiSearcher.UseHttps">UseHttps</h4>
+  <div class="markdown level1 summary"><p>If we should use HTTPS for web requests or HTTP</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ExactMatch { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool UseHttps { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,44 +165,44 @@ Example:
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CreepysinStudios_WikiDotNet_WikiSearchSettings_RequestId_" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId*"></a>
-  <h4 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_RequestId" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId">RequestId</h4>
-  <div class="markdown level1 summary"><p>A string that will be returned with the request results. Useful to distinguish multiple requests</p>
+  <a id="WikiDotNet_WikiSearcher_Search_" data-uid="WikiDotNet.WikiSearcher.Search*"></a>
+  <h4 id="WikiDotNet_WikiSearcher_Search_System_String_WikiDotNet_WikiSearchSettings_" data-uid="WikiDotNet.WikiSearcher.Search(System.String,WikiDotNet.WikiSearchSettings)">Search(String, WikiSearchSettings)</h4>
+  <div class="markdown level1 summary"><p>Searches Wikipedia using the given <code data-dev-comment-type="paramref" class="paramref">searchString</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RequestId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static WikiSearchResponse Search(string searchString, WikiSearchSettings searchSettings = null)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="parametername">searchString</span></td>
+        <td><p>The string to search for</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="WikiDotNet.WikiSearchSettings.html">WikiSearchSettings</a></td>
+        <td><span class="parametername">searchSettings</span></td>
+        <td><p>An optional set of settings to</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultLimit_" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit*"></a>
-  <h4 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultLimit" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit">ResultLimit</h4>
-  <div class="markdown level1 summary"><p>How many results to return</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ResultLimit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -217,8 +212,9 @@ Example:
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><a class="xref" href="WikiDotNet.WikiSearchResponse.html">WikiSearchResponse</a></td>
+        <td><p>A list of search results obtained from the Wikipedia API</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -233,33 +229,6 @@ Example:
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p>Occurs when the given value is too high or low</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultOffset_" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset*"></a>
-  <h4 id="CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultOffset" data-uid="CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset">ResultOffset</h4>
-  <div class="markdown level1 summary"><p>An amount to offset the search results by. Useful when scrolling through large groups of pages</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ResultOffset { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -288,7 +257,7 @@ Example:
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Creepysin Studios (c) 2019-2020
+            Voltstro Studios (c) 2019-2020
             
           </div>
         </div>

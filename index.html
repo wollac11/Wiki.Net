@@ -62,15 +62,14 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="wikinet">Wiki.Net</h1>
 
-<p><a href="/LICENSE.md"><img src="https://img.shields.io/github/license/Creepysin-Studios/Wiki.Net" alt="License"></a>
-<a href="https://requires.io/github/Creepysin-Studios/Wiki.Net/requirements/?branch=Stable"><img src="https://requires.io/github/Creepysin-Studios/Wiki.Net/requirements.svg?branch=Development" alt="Requirements Status"></a>
+<p><a href="https://github.com/Voltstro-Studios/Wiki.Net/blob/Development/LICENSE.md"><img src="https://img.shields.io/github/license/Creepysin-Studios/Wiki.Net" alt="License"></a>
 <a href="https://www.nuget.org/packages/Wiki.Net/"><img src="https://img.shields.io/nuget/v/Wiki.Net" alt="NuGet"></a>
 <a href="https://www.nuget.org/packages/Wiki.Net/"><img src="https://img.shields.io/nuget/dt/Wiki.Net" alt="NuGet Download Count"></a>
-<a href="https://dev.azure.com/Creepysin-Studios/Wiki.Net"><img src="https://img.shields.io/azure-devops/build/Creepysin-Studios/c4df32aa-4dfd-4b92-bf94-fe6c31c47b03/2/Development" alt="Azure Build"></a>
-<a href="https://discord.creepysin.com"><img src="https://img.shields.io/badge/Discord-Creepysin-7289da.svg?logo=discord" alt="Discord"></a></p>
+<a href="https://dev.azure.com/Voltstro-Studios/Wiki.Net/_build?definitionId=4"><img src="https://dev.azure.com/Voltstro-Studios/Wiki.Net/_apis/build/status/Voltstro-Studios.Wiki.Net?branchName=Development" alt="Azure Build"></a>
+<a href="https://discord.voltstro.dev"><img src="https://img.shields.io/badge/Discord-Voltstro-7289da.svg?logo=discord" alt="Discord"></a></p>
 <p>Wiki.Net – An unofficial C# Wikipedia API</p>
 <h2 id="features">Features</h2>
-<p>Searches Wikipedia (duh!) and returns (per result):</p>
+<p>Searches Wikipedia (duh!) in multiple defined languages and returns (per result):</p>
 <ul>
 <li>Title</li>
 <li>Page ID</li>
@@ -83,13 +82,13 @@
 <h2 id="getting-started">Getting Started</h2>
 <h3 id="installation">Installation</h3>
 <p>You can install via NuGet using the package manager command:</p>
-<pre><code>Install-Package Wiki.Net -Version 2.1.0
+<pre><code>Install-Package Wiki.Net
 </code></pre>
-<p>You can also download the binaries from the <a href="https://github.com/Creepysin-Studios/Wiki.Net/releases">releases</a>.</p>
+<p>You can also download the binaries from the <a href="https://github.com/Voltstro-Studios/Wiki.Net/releases">releases</a>.</p>
 <h3 id="example">Example</h3>
-<pre><code class="lang-csharp">string searchString = “Computer”;
+<pre><code class="lang-c#">string searchString = &quot;Computer&quot;;
 WikiSearchSettings searchSettings = new WikiSearchSettings
-	{RequestId = &quot;Request ID&quot;, ResultLimit = 5, ResultOffset = 2};
+	{RequestId = &quot;Request ID&quot;, ResultLimit = 5, ResultOffset = 2, Language = &quot;en&quot;};
 
 WikiSearchResponse response = WikiSearcher.Search(searchString, searchSettings);
 
@@ -97,7 +96,7 @@ Console.WriteLine($&quot;\nResults found ({searchString}):\n&quot;);
 foreach (WikiSearchResult result in response.Query.SearchResults)
 {
 	Console.WriteLine(
-		$&quot;\t{result.Title} ({result.WordCount} words, {result.Size} bytes, id {result.PageId}):\t{result.Preview}...\n\tAt {result.Url}\n\tLast edited at {result.LastEdited}\n&quot;);
+		$&quot;\t{result.Title} ({result.WordCount} words, {result.Size} bytes, id {result.PageId}):\t{result.Preview}...\n\tAt {result.Url(searchSettings.Language)}\n\tLast edited at {result.LastEdited}\n&quot;);
 }
 
 Console.ReadLine();
@@ -119,11 +118,14 @@ Console.ReadLine();
 
     *More results*
 </code></pre>
+<h3 id="upgrading-from-2x-to-3x">Upgrading from 2.x to 3.x</h3>
+<p>In 3.0, we simplified the namespace of Wiki.Net to <code>WikiDotNet</code>.</p>
+<p>To upgrade from 2.x version of Wiki.Net to 3.x, you need to change all of the <code>using CreepysinStudios.WikiDotNet</code> to <code>using WikiDotNet</code> in your projects. The easiest way would just be to do a replace all in your entire solution.</p>
 <h2 id="authors">Authors</h2>
 <p><strong>EternalClickbait</strong> - <em>Initial work</em> - <a href="https://github.com/EternalClickbait">EternalClickbait</a></p>
-<p><strong>Creepysin</strong> - <em>Current Maintainer / Initial Docs Writer</em> - <a href="https://github.com/Creepysin">Creepysin</a></p>
+<p><strong>Voltstro</strong> - <em>Current Maintainer / Initial Docs Writer</em> - <a href="https://github.com/Voltstro">Voltstro</a></p>
 <h2 id="license">License</h2>
-<p>This project is licensed under the MIT license – see the <a href="https://github.com/Creepysin-Studios/Wiki.Net/blob/Development/LICENSE.md">LICENSE.md</a> file for details.</p>
+<p>This project is licensed under the MIT license – see the <a href="https://github.com/Voltstro-Studios/Wiki.Net/blob/Development/LICENSE.md">LICENSE.md</a> file for details.</p>
 </article>
           </div>
           
@@ -148,7 +150,7 @@ Console.ReadLine();
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Creepysin Studios (c) 2019-2020
+            Voltstro Studios (c) 2019-2020
             
           </div>
         </div>

@@ -5,110 +5,110 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.Error.yml",
+      "source_relative_path": "api/WikiDotNet.Error.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.Error.html",
-          "hash": "B4Bfb87Bu8O6kL0BEcwBrQ=="
+          "relative_path": "api/WikiDotNet.Error.html",
+          "hash": "HzuGZ0CGrPlGr8OP6lVeVQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.SearchInfo.yml",
+      "source_relative_path": "api/WikiDotNet.SearchInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.SearchInfo.html",
-          "hash": "zZL8zTp4XUCgGVK32bHmpg=="
+          "relative_path": "api/WikiDotNet.SearchInfo.html",
+          "hash": "asH0H3PVWQoDEYpfkfk+kg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.Warning.yml",
+      "source_relative_path": "api/WikiDotNet.Warning.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.Warning.html",
-          "hash": "U1M3obyOPU/Af6jy1ZZTzw=="
+          "relative_path": "api/WikiDotNet.Warning.html",
+          "hash": "HUnPPbh8NRbklPIoz08t5w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchQuery.yml",
+      "source_relative_path": "api/WikiDotNet.WikiSearchQuery.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html",
-          "hash": "KDXvSuoNczXGuKOGza/6Jw=="
+          "relative_path": "api/WikiDotNet.WikiSearchQuery.html",
+          "hash": "o+RaX2c9uLRYHPm3Jzyabw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResponse.yml",
+      "source_relative_path": "api/WikiDotNet.WikiSearchResponse.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html",
-          "hash": "GQBZnOpy1b/q4t5T8PoOYg=="
+          "relative_path": "api/WikiDotNet.WikiSearchResponse.html",
+          "hash": "NysWvJFmeN/+N+u1DMBuPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResult.yml",
+      "source_relative_path": "api/WikiDotNet.WikiSearchResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchResult.html",
-          "hash": "PXL8F7WfmtiKgk2tNpLqWg=="
+          "relative_path": "api/WikiDotNet.WikiSearchResult.html",
+          "hash": "Lu2P5EzaFeEYMPSzWV1MLQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchSettings.yml",
+      "source_relative_path": "api/WikiDotNet.WikiSearchSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html",
-          "hash": "CkR6qa91k/THr6rhT9pSDw=="
+          "relative_path": "api/WikiDotNet.WikiSearchSettings.html",
+          "hash": "Hsh997MQIDHQVy1Lr4iL8A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearcher.yml",
+      "source_relative_path": "api/WikiDotNet.WikiSearcher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.WikiSearcher.html",
-          "hash": "Uu1uARWdF2CcwGiVSVbY9g=="
+          "relative_path": "api/WikiDotNet.WikiSearcher.html",
+          "hash": "PiqBw02y1hDG8MIrisEXXQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CreepysinStudios.WikiDotNet.yml",
+      "source_relative_path": "api/WikiDotNet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CreepysinStudios.WikiDotNet.html",
-          "hash": "dXh3EBHtJf+TCBpGiJZfsA=="
+          "relative_path": "api/WikiDotNet.html",
+          "hash": "KieKMyszmbYk0zk7S0ehIA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "VKbDStdF1ZDbITfYYD6jKA=="
+          "hash": "SB7dkHG/e265/3aUo5JgAw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Yc0On00UF1nz/GpdvpQ+5g=="
+          "hash": "QmbSh6qR7/l/WT4dSnZnkw=="
         }
       },
       "is_incremental": false,
@@ -152,10 +152,10 @@
       "output": {
         ".html": {
           "relative_path": "guides/bexample.html",
-          "hash": "onP8NGCTMRz3T6E0UxeTqg=="
+          "hash": "IsuDaE9GPVlVclpTo6w1rA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -167,10 +167,10 @@
       "output": {
         ".html": {
           "relative_path": "guides/index.html",
-          "hash": "Xgt5hzJ6w+NmYE7J/A8p9Q=="
+          "hash": "SGaQ30rDx/tcUDLcLzKGjA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -202,10 +202,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "YChjIJg12QMzbjB01cS+ow=="
+          "hash": "N2AIo55Huzrmbw2DE4VVVQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -224,12 +224,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ResourceDocumentProcessor": {
@@ -239,17 +237,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

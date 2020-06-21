@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Error
+    <title>Class WikiSearchSettings
    | Wiki.Net Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Error
+    <meta name="title" content="Class WikiSearchSettings
    | Wiki.Net Documentation ">
     <meta name="generator" content="docfx 2.47.0.0">
     
@@ -68,18 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CreepysinStudios.WikiDotNet.Error">
+            <article class="content wrap" id="_content" data-uid="WikiDotNet.WikiSearchSettings">
   
   
-  <h1 id="CreepysinStudios_WikiDotNet_Error" data-uid="CreepysinStudios.WikiDotNet.Error" class="text-break">Class Error
+  <h1 id="WikiDotNet_WikiSearchSettings" data-uid="WikiDotNet.WikiSearchSettings" class="text-break">Class WikiSearchSettings
   </h1>
-  <div class="markdown level0 summary"><p>A class that represents a Wikipedia API error</p>
+  <div class="markdown level0 summary"><p>A class containing settings for use when searching with <a class="xref" href="WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_Search_System_String_WikiDotNet_WikiSearchSettings_">Search(String, WikiSearchSettings)</a>.
+<a class="xref" href="WikiDotNet.WikiSearcher.html">WikiSearcher</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Error</span></div>
+    <div class="level1"><span class="xref">WikiSearchSettings</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,26 +106,124 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CreepysinStudios.WikiDotNet.html">CreepysinStudios.WikiDotNet</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="WikiDotNet.html">WikiDotNet</a></h6>
   <h6><strong>Assembly</strong>: Wiki.Net.dll</h6>
-  <h5 id="CreepysinStudios_WikiDotNet_Error_syntax">Syntax</h5>
+  <h5 id="WikiDotNet_WikiSearchSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Error</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class WikiSearchSettings</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="CreepysinStudios_WikiDotNet_Error_Code" data-uid="CreepysinStudios.WikiDotNet.Error.Code">Code</h4>
-  <div class="markdown level1 summary"><p>What error code does this this error correspond to</p>
+  <h4 id="WikiDotNet_WikiSearchSettings_Namespaces" data-uid="WikiDotNet.WikiSearchSettings.Namespaces">Namespaces</h4>
+  <div class="markdown level1 summary"><p>What namespaces to search in. Default is {0} (default)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;code&quot;)]
-public readonly string Code</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;int&gt; Namespaces</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="WikiDotNet_WikiSearchSettings_ExactMatch_" data-uid="WikiDotNet.WikiSearchSettings.ExactMatch*"></a>
+  <h4 id="WikiDotNet_WikiSearchSettings_ExactMatch" data-uid="WikiDotNet.WikiSearchSettings.ExactMatch">ExactMatch</h4>
+  <div class="markdown level1 summary"><p>Should we only find results that exactly match our search
+Example:
+'Microsoft' results in 'Microsoft'
+'Microsof' results in 'no results'</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ExactMatch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="WikiDotNet_WikiSearchSettings_Language_" data-uid="WikiDotNet.WikiSearchSettings.Language*"></a>
+  <h4 id="WikiDotNet_WikiSearchSettings_Language" data-uid="WikiDotNet.WikiSearchSettings.Language">Language</h4>
+  <div class="markdown level1 summary"><p>The language of the wiki to search in. Default is 'en' (default)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Language { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Occurs when the given value is <span class="xref">null</span> or white space</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="WikiDotNet_WikiSearchSettings_RequestId_" data-uid="WikiDotNet.WikiSearchSettings.RequestId*"></a>
+  <h4 id="WikiDotNet_WikiSearchSettings_RequestId" data-uid="WikiDotNet.WikiSearchSettings.RequestId">RequestId</h4>
+  <div class="markdown level1 summary"><p>A string that will be returned with the request results. Useful to distinguish multiple requests</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RequestId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -141,16 +240,16 @@ public readonly string Code</code></pre>
   </table>
   
   
-  <h4 id="CreepysinStudios_WikiDotNet_Error_Data" data-uid="CreepysinStudios.WikiDotNet.Error.Data">Data</h4>
-  <div class="markdown level1 summary"><p>Any extra information the assist with debugging</p>
+  <a id="WikiDotNet_WikiSearchSettings_ResultLimit_" data-uid="WikiDotNet.WikiSearchSettings.ResultLimit*"></a>
+  <h4 id="WikiDotNet_WikiSearchSettings_ResultLimit" data-uid="WikiDotNet.WikiSearchSettings.ResultLimit">ResultLimit</h4>
+  <div class="markdown level1 summary"><p>How many results to return</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;data&quot;)]
-public readonly string Data</code></pre>
+    <pre><code class="lang-csharp hljs">public int ResultLimit { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -160,23 +259,39 @@ public readonly string Data</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Occurs when the given value is too high or low</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="CreepysinStudios_WikiDotNet_Error_Module" data-uid="CreepysinStudios.WikiDotNet.Error.Module">Module</h4>
-  <div class="markdown level1 summary"><p>What Wikipedia module gave this error</p>
+  <a id="WikiDotNet_WikiSearchSettings_ResultOffset_" data-uid="WikiDotNet.WikiSearchSettings.ResultOffset*"></a>
+  <h4 id="WikiDotNet_WikiSearchSettings_ResultOffset" data-uid="WikiDotNet.WikiSearchSettings.ResultOffset">ResultOffset</h4>
+  <div class="markdown level1 summary"><p>An amount to offset the search results by. Useful when scrolling through large groups of pages</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;module&quot;)]
-public readonly string Module</code></pre>
+    <pre><code class="lang-csharp hljs">public int ResultOffset { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -186,33 +301,7 @@ public readonly string Module</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="CreepysinStudios_WikiDotNet_Error_Text" data-uid="CreepysinStudios.WikiDotNet.Error.Text">Text</h4>
-  <div class="markdown level1 summary"><p>Information about this error</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;*&quot;)]
-public readonly string Text</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -241,7 +330,7 @@ public readonly string Text</code></pre>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Creepysin Studios (c) 2019-2020
+            Voltstro Studios (c) 2019-2020
             
           </div>
         </div>

@@ -1,331 +1,344 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CreepysinStudios.WikiDotNet
-  name: CreepysinStudios.WikiDotNet
-  href: api/CreepysinStudios.WikiDotNet.html
-  commentId: N:CreepysinStudios.WikiDotNet
-  fullName: CreepysinStudios.WikiDotNet
-  nameWithType: CreepysinStudios.WikiDotNet
-- uid: CreepysinStudios.WikiDotNet.Error
+- uid: WikiDotNet
+  name: WikiDotNet
+  href: api/WikiDotNet.html
+  commentId: N:WikiDotNet
+  fullName: WikiDotNet
+  nameWithType: WikiDotNet
+- uid: WikiDotNet.Error
   name: Error
-  href: api/CreepysinStudios.WikiDotNet.Error.html
-  commentId: T:CreepysinStudios.WikiDotNet.Error
-  fullName: CreepysinStudios.WikiDotNet.Error
+  href: api/WikiDotNet.Error.html
+  commentId: T:WikiDotNet.Error
+  fullName: WikiDotNet.Error
   nameWithType: Error
-- uid: CreepysinStudios.WikiDotNet.Error.Code
+- uid: WikiDotNet.Error.Code
   name: Code
-  href: api/CreepysinStudios.WikiDotNet.Error.html#CreepysinStudios_WikiDotNet_Error_Code
-  commentId: F:CreepysinStudios.WikiDotNet.Error.Code
-  fullName: CreepysinStudios.WikiDotNet.Error.Code
+  href: api/WikiDotNet.Error.html#WikiDotNet_Error_Code
+  commentId: F:WikiDotNet.Error.Code
+  fullName: WikiDotNet.Error.Code
   nameWithType: Error.Code
-- uid: CreepysinStudios.WikiDotNet.Error.Data
+- uid: WikiDotNet.Error.Data
   name: Data
-  href: api/CreepysinStudios.WikiDotNet.Error.html#CreepysinStudios_WikiDotNet_Error_Data
-  commentId: F:CreepysinStudios.WikiDotNet.Error.Data
-  fullName: CreepysinStudios.WikiDotNet.Error.Data
+  href: api/WikiDotNet.Error.html#WikiDotNet_Error_Data
+  commentId: F:WikiDotNet.Error.Data
+  fullName: WikiDotNet.Error.Data
   nameWithType: Error.Data
-- uid: CreepysinStudios.WikiDotNet.Error.Module
+- uid: WikiDotNet.Error.Module
   name: Module
-  href: api/CreepysinStudios.WikiDotNet.Error.html#CreepysinStudios_WikiDotNet_Error_Module
-  commentId: F:CreepysinStudios.WikiDotNet.Error.Module
-  fullName: CreepysinStudios.WikiDotNet.Error.Module
+  href: api/WikiDotNet.Error.html#WikiDotNet_Error_Module
+  commentId: F:WikiDotNet.Error.Module
+  fullName: WikiDotNet.Error.Module
   nameWithType: Error.Module
-- uid: CreepysinStudios.WikiDotNet.Error.Text
+- uid: WikiDotNet.Error.Text
   name: Text
-  href: api/CreepysinStudios.WikiDotNet.Error.html#CreepysinStudios_WikiDotNet_Error_Text
-  commentId: F:CreepysinStudios.WikiDotNet.Error.Text
-  fullName: CreepysinStudios.WikiDotNet.Error.Text
+  href: api/WikiDotNet.Error.html#WikiDotNet_Error_Text
+  commentId: F:WikiDotNet.Error.Text
+  fullName: WikiDotNet.Error.Text
   nameWithType: Error.Text
-- uid: CreepysinStudios.WikiDotNet.SearchInfo
+- uid: WikiDotNet.SearchInfo
   name: SearchInfo
-  href: api/CreepysinStudios.WikiDotNet.SearchInfo.html
-  commentId: T:CreepysinStudios.WikiDotNet.SearchInfo
-  fullName: CreepysinStudios.WikiDotNet.SearchInfo
+  href: api/WikiDotNet.SearchInfo.html
+  commentId: T:WikiDotNet.SearchInfo
+  fullName: WikiDotNet.SearchInfo
   nameWithType: SearchInfo
-- uid: CreepysinStudios.WikiDotNet.SearchInfo.TotalHits
+- uid: WikiDotNet.SearchInfo.TotalHits
   name: TotalHits
-  href: api/CreepysinStudios.WikiDotNet.SearchInfo.html#CreepysinStudios_WikiDotNet_SearchInfo_TotalHits
-  commentId: F:CreepysinStudios.WikiDotNet.SearchInfo.TotalHits
-  fullName: CreepysinStudios.WikiDotNet.SearchInfo.TotalHits
+  href: api/WikiDotNet.SearchInfo.html#WikiDotNet_SearchInfo_TotalHits
+  commentId: F:WikiDotNet.SearchInfo.TotalHits
+  fullName: WikiDotNet.SearchInfo.TotalHits
   nameWithType: SearchInfo.TotalHits
-- uid: CreepysinStudios.WikiDotNet.Warning
+- uid: WikiDotNet.Warning
   name: Warning
-  href: api/CreepysinStudios.WikiDotNet.Warning.html
-  commentId: T:CreepysinStudios.WikiDotNet.Warning
-  fullName: CreepysinStudios.WikiDotNet.Warning
+  href: api/WikiDotNet.Warning.html
+  commentId: T:WikiDotNet.Warning
+  fullName: WikiDotNet.Warning
   nameWithType: Warning
-- uid: CreepysinStudios.WikiDotNet.Warning.Code
+- uid: WikiDotNet.Warning.Code
   name: Code
-  href: api/CreepysinStudios.WikiDotNet.Warning.html#CreepysinStudios_WikiDotNet_Warning_Code
-  commentId: F:CreepysinStudios.WikiDotNet.Warning.Code
-  fullName: CreepysinStudios.WikiDotNet.Warning.Code
+  href: api/WikiDotNet.Warning.html#WikiDotNet_Warning_Code
+  commentId: F:WikiDotNet.Warning.Code
+  fullName: WikiDotNet.Warning.Code
   nameWithType: Warning.Code
-- uid: CreepysinStudios.WikiDotNet.Warning.Module
+- uid: WikiDotNet.Warning.Module
   name: Module
-  href: api/CreepysinStudios.WikiDotNet.Warning.html#CreepysinStudios_WikiDotNet_Warning_Module
-  commentId: F:CreepysinStudios.WikiDotNet.Warning.Module
-  fullName: CreepysinStudios.WikiDotNet.Warning.Module
+  href: api/WikiDotNet.Warning.html#WikiDotNet_Warning_Module
+  commentId: F:WikiDotNet.Warning.Module
+  fullName: WikiDotNet.Warning.Module
   nameWithType: Warning.Module
-- uid: CreepysinStudios.WikiDotNet.Warning.Text
+- uid: WikiDotNet.Warning.Text
   name: Text
-  href: api/CreepysinStudios.WikiDotNet.Warning.html#CreepysinStudios_WikiDotNet_Warning_Text
-  commentId: F:CreepysinStudios.WikiDotNet.Warning.Text
-  fullName: CreepysinStudios.WikiDotNet.Warning.Text
+  href: api/WikiDotNet.Warning.html#WikiDotNet_Warning_Text
+  commentId: F:WikiDotNet.Warning.Text
+  fullName: WikiDotNet.Warning.Text
   nameWithType: Warning.Text
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher
+- uid: WikiDotNet.WikiSearcher
   name: WikiSearcher
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html
-  commentId: T:CreepysinStudios.WikiDotNet.WikiSearcher
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher
+  href: api/WikiDotNet.WikiSearcher.html
+  commentId: T:WikiDotNet.WikiSearcher
+  fullName: WikiDotNet.WikiSearcher
   nameWithType: WikiSearcher
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.Proxy
+- uid: WikiDotNet.WikiSearcher.Proxy
   name: Proxy
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_Proxy
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearcher.Proxy
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.Proxy
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_Proxy
+  commentId: P:WikiDotNet.WikiSearcher.Proxy
+  fullName: WikiDotNet.WikiSearcher.Proxy
   nameWithType: WikiSearcher.Proxy
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.Proxy*
+- uid: WikiDotNet.WikiSearcher.Proxy*
   name: Proxy
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_Proxy_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearcher.Proxy
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_Proxy_
+  commentId: Overload:WikiDotNet.WikiSearcher.Proxy
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.Proxy
+  fullName: WikiDotNet.WikiSearcher.Proxy
   nameWithType: WikiSearcher.Proxy
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.Search(System.String,CreepysinStudios.WikiDotNet.WikiSearchSettings)
+- uid: WikiDotNet.WikiSearcher.Search(System.String,WikiDotNet.WikiSearchSettings)
   name: Search(String, WikiSearchSettings)
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_Search_System_String_CreepysinStudios_WikiDotNet_WikiSearchSettings_
-  commentId: M:CreepysinStudios.WikiDotNet.WikiSearcher.Search(System.String,CreepysinStudios.WikiDotNet.WikiSearchSettings)
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.Search(System.String, CreepysinStudios.WikiDotNet.WikiSearchSettings)
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_Search_System_String_WikiDotNet_WikiSearchSettings_
+  commentId: M:WikiDotNet.WikiSearcher.Search(System.String,WikiDotNet.WikiSearchSettings)
+  fullName: WikiDotNet.WikiSearcher.Search(System.String, WikiDotNet.WikiSearchSettings)
   nameWithType: WikiSearcher.Search(String, WikiSearchSettings)
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.Search*
+- uid: WikiDotNet.WikiSearcher.Search*
   name: Search
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_Search_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearcher.Search
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_Search_
+  commentId: Overload:WikiDotNet.WikiSearcher.Search
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.Search
+  fullName: WikiDotNet.WikiSearcher.Search
   nameWithType: WikiSearcher.Search
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps
+- uid: WikiDotNet.WikiSearcher.UseHttps
   name: UseHttps
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_UseHttps
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_UseHttps
+  commentId: P:WikiDotNet.WikiSearcher.UseHttps
+  fullName: WikiDotNet.WikiSearcher.UseHttps
   nameWithType: WikiSearcher.UseHttps
-- uid: CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps*
+- uid: WikiDotNet.WikiSearcher.UseHttps*
   name: UseHttps
-  href: api/CreepysinStudios.WikiDotNet.WikiSearcher.html#CreepysinStudios_WikiDotNet_WikiSearcher_UseHttps_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps
+  href: api/WikiDotNet.WikiSearcher.html#WikiDotNet_WikiSearcher_UseHttps_
+  commentId: Overload:WikiDotNet.WikiSearcher.UseHttps
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearcher.UseHttps
+  fullName: WikiDotNet.WikiSearcher.UseHttps
   nameWithType: WikiSearcher.UseHttps
-- uid: CreepysinStudios.WikiDotNet.WikiSearchQuery
+- uid: WikiDotNet.WikiSearchQuery
   name: WikiSearchQuery
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html
-  commentId: T:CreepysinStudios.WikiDotNet.WikiSearchQuery
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchQuery
+  href: api/WikiDotNet.WikiSearchQuery.html
+  commentId: T:WikiDotNet.WikiSearchQuery
+  fullName: WikiDotNet.WikiSearchQuery
   nameWithType: WikiSearchQuery
-- uid: CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchInfo
+- uid: WikiDotNet.WikiSearchQuery.SearchInfo
   name: SearchInfo
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html#CreepysinStudios_WikiDotNet_WikiSearchQuery_SearchInfo
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchInfo
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchInfo
+  href: api/WikiDotNet.WikiSearchQuery.html#WikiDotNet_WikiSearchQuery_SearchInfo
+  commentId: F:WikiDotNet.WikiSearchQuery.SearchInfo
+  fullName: WikiDotNet.WikiSearchQuery.SearchInfo
   nameWithType: WikiSearchQuery.SearchInfo
-- uid: CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchResults
+- uid: WikiDotNet.WikiSearchQuery.SearchResults
   name: SearchResults
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchQuery.html#CreepysinStudios_WikiDotNet_WikiSearchQuery_SearchResults
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchResults
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchQuery.SearchResults
+  href: api/WikiDotNet.WikiSearchQuery.html#WikiDotNet_WikiSearchQuery_SearchResults
+  commentId: F:WikiDotNet.WikiSearchQuery.SearchResults
+  fullName: WikiDotNet.WikiSearchQuery.SearchResults
   nameWithType: WikiSearchQuery.SearchResults
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse
+- uid: WikiDotNet.WikiSearchResponse
   name: WikiSearchResponse
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html
-  commentId: T:CreepysinStudios.WikiDotNet.WikiSearchResponse
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse
+  href: api/WikiDotNet.WikiSearchResponse.html
+  commentId: T:WikiDotNet.WikiSearchResponse
+  fullName: WikiDotNet.WikiSearchResponse
   nameWithType: WikiSearchResponse
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.Errors
+- uid: WikiDotNet.WikiSearchResponse.Errors
   name: Errors
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_Errors
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.Errors
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.Errors
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_Errors
+  commentId: F:WikiDotNet.WikiSearchResponse.Errors
+  fullName: WikiDotNet.WikiSearchResponse.Errors
   nameWithType: WikiSearchResponse.Errors
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.Query
+- uid: WikiDotNet.WikiSearchResponse.Query
   name: Query
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_Query
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.Query
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.Query
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_Query
+  commentId: F:WikiDotNet.WikiSearchResponse.Query
+  fullName: WikiDotNet.WikiSearchResponse.Query
   nameWithType: WikiSearchResponse.Query
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.RequestId
+- uid: WikiDotNet.WikiSearchResponse.RequestId
   name: RequestId
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_RequestId
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.RequestId
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.RequestId
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_RequestId
+  commentId: F:WikiDotNet.WikiSearchResponse.RequestId
+  fullName: WikiDotNet.WikiSearchResponse.RequestId
   nameWithType: WikiSearchResponse.RequestId
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.ServedBy
+- uid: WikiDotNet.WikiSearchResponse.ServedBy
   name: ServedBy
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_ServedBy
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.ServedBy
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.ServedBy
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_ServedBy
+  commentId: F:WikiDotNet.WikiSearchResponse.ServedBy
+  fullName: WikiDotNet.WikiSearchResponse.ServedBy
   nameWithType: WikiSearchResponse.ServedBy
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.Timestamp
+- uid: WikiDotNet.WikiSearchResponse.Timestamp
   name: Timestamp
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_Timestamp
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.Timestamp
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.Timestamp
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_Timestamp
+  commentId: F:WikiDotNet.WikiSearchResponse.Timestamp
+  fullName: WikiDotNet.WikiSearchResponse.Timestamp
   nameWithType: WikiSearchResponse.Timestamp
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.Warnings
+- uid: WikiDotNet.WikiSearchResponse.Warnings
   name: Warnings
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_Warnings
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResponse.Warnings
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.Warnings
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_Warnings
+  commentId: F:WikiDotNet.WikiSearchResponse.Warnings
+  fullName: WikiDotNet.WikiSearchResponse.Warnings
   nameWithType: WikiSearchResponse.Warnings
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful
+- uid: WikiDotNet.WikiSearchResponse.WasSuccessful
   name: WasSuccessful
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_WasSuccessful
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_WasSuccessful
+  commentId: P:WikiDotNet.WikiSearchResponse.WasSuccessful
+  fullName: WikiDotNet.WikiSearchResponse.WasSuccessful
   nameWithType: WikiSearchResponse.WasSuccessful
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful*
+- uid: WikiDotNet.WikiSearchResponse.WasSuccessful*
   name: WasSuccessful
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResponse.html#CreepysinStudios_WikiDotNet_WikiSearchResponse_WasSuccessful_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful
+  href: api/WikiDotNet.WikiSearchResponse.html#WikiDotNet_WikiSearchResponse_WasSuccessful_
+  commentId: Overload:WikiDotNet.WikiSearchResponse.WasSuccessful
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResponse.WasSuccessful
+  fullName: WikiDotNet.WikiSearchResponse.WasSuccessful
   nameWithType: WikiSearchResponse.WasSuccessful
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult
+- uid: WikiDotNet.WikiSearchResult
   name: WikiSearchResult
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html
-  commentId: T:CreepysinStudios.WikiDotNet.WikiSearchResult
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult
+  href: api/WikiDotNet.WikiSearchResult.html
+  commentId: T:WikiDotNet.WikiSearchResult
+  fullName: WikiDotNet.WikiSearchResult
   nameWithType: WikiSearchResult
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl
+- uid: WikiDotNet.WikiSearchResult.ConstantUrl(System.String)
+  name: ConstantUrl(String)
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_ConstantUrl_System_String_
+  commentId: M:WikiDotNet.WikiSearchResult.ConstantUrl(System.String)
+  fullName: WikiDotNet.WikiSearchResult.ConstantUrl(System.String)
+  nameWithType: WikiSearchResult.ConstantUrl(String)
+- uid: WikiDotNet.WikiSearchResult.ConstantUrl*
   name: ConstantUrl
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_ConstantUrl
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl
-  nameWithType: WikiSearchResult.ConstantUrl
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl*
-  name: ConstantUrl
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_ConstantUrl_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_ConstantUrl_
+  commentId: Overload:WikiDotNet.WikiSearchResult.ConstantUrl
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.ConstantUrl
+  fullName: WikiDotNet.WikiSearchResult.ConstantUrl
   nameWithType: WikiSearchResult.ConstantUrl
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.LastEdited
+- uid: WikiDotNet.WikiSearchResult.LastEdited
   name: LastEdited
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_LastEdited
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.LastEdited
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.LastEdited
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_LastEdited
+  commentId: F:WikiDotNet.WikiSearchResult.LastEdited
+  fullName: WikiDotNet.WikiSearchResult.LastEdited
   nameWithType: WikiSearchResult.LastEdited
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Ns
+- uid: WikiDotNet.WikiSearchResult.Ns
   name: Ns
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Ns
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.Ns
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Ns
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Ns
+  commentId: F:WikiDotNet.WikiSearchResult.Ns
+  fullName: WikiDotNet.WikiSearchResult.Ns
   nameWithType: WikiSearchResult.Ns
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.PageId
+- uid: WikiDotNet.WikiSearchResult.PageId
   name: PageId
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_PageId
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.PageId
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.PageId
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_PageId
+  commentId: F:WikiDotNet.WikiSearchResult.PageId
+  fullName: WikiDotNet.WikiSearchResult.PageId
   nameWithType: WikiSearchResult.PageId
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Preview
+- uid: WikiDotNet.WikiSearchResult.Preview
   name: Preview
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Preview
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.Preview
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Preview
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Preview
+  commentId: F:WikiDotNet.WikiSearchResult.Preview
+  fullName: WikiDotNet.WikiSearchResult.Preview
   nameWithType: WikiSearchResult.Preview
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Size
+- uid: WikiDotNet.WikiSearchResult.Size
   name: Size
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Size
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.Size
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Size
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Size
+  commentId: F:WikiDotNet.WikiSearchResult.Size
+  fullName: WikiDotNet.WikiSearchResult.Size
   nameWithType: WikiSearchResult.Size
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Title
+- uid: WikiDotNet.WikiSearchResult.Title
   name: Title
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Title
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.Title
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Title
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Title
+  commentId: F:WikiDotNet.WikiSearchResult.Title
+  fullName: WikiDotNet.WikiSearchResult.Title
   nameWithType: WikiSearchResult.Title
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Url
+- uid: WikiDotNet.WikiSearchResult.Url(System.String)
+  name: Url(String)
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Url_System_String_
+  commentId: M:WikiDotNet.WikiSearchResult.Url(System.String)
+  fullName: WikiDotNet.WikiSearchResult.Url(System.String)
+  nameWithType: WikiSearchResult.Url(String)
+- uid: WikiDotNet.WikiSearchResult.Url*
   name: Url
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Url
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchResult.Url
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Url
-  nameWithType: WikiSearchResult.Url
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.Url*
-  name: Url
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_Url_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchResult.Url
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_Url_
+  commentId: Overload:WikiDotNet.WikiSearchResult.Url
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.Url
+  fullName: WikiDotNet.WikiSearchResult.Url
   nameWithType: WikiSearchResult.Url
-- uid: CreepysinStudios.WikiDotNet.WikiSearchResult.WordCount
+- uid: WikiDotNet.WikiSearchResult.WordCount
   name: WordCount
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchResult.html#CreepysinStudios_WikiDotNet_WikiSearchResult_WordCount
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchResult.WordCount
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchResult.WordCount
+  href: api/WikiDotNet.WikiSearchResult.html#WikiDotNet_WikiSearchResult_WordCount
+  commentId: F:WikiDotNet.WikiSearchResult.WordCount
+  fullName: WikiDotNet.WikiSearchResult.WordCount
   nameWithType: WikiSearchResult.WordCount
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings
+- uid: WikiDotNet.WikiSearchSettings
   name: WikiSearchSettings
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html
-  commentId: T:CreepysinStudios.WikiDotNet.WikiSearchSettings
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings
+  href: api/WikiDotNet.WikiSearchSettings.html
+  commentId: T:WikiDotNet.WikiSearchSettings
+  fullName: WikiDotNet.WikiSearchSettings
   nameWithType: WikiSearchSettings
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch
+- uid: WikiDotNet.WikiSearchSettings.ExactMatch
   name: ExactMatch
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ExactMatch
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ExactMatch
+  commentId: P:WikiDotNet.WikiSearchSettings.ExactMatch
+  fullName: WikiDotNet.WikiSearchSettings.ExactMatch
   nameWithType: WikiSearchSettings.ExactMatch
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch*
+- uid: WikiDotNet.WikiSearchSettings.ExactMatch*
   name: ExactMatch
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ExactMatch_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ExactMatch_
+  commentId: Overload:WikiDotNet.WikiSearchSettings.ExactMatch
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ExactMatch
+  fullName: WikiDotNet.WikiSearchSettings.ExactMatch
   nameWithType: WikiSearchSettings.ExactMatch
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.Namespaces
+- uid: WikiDotNet.WikiSearchSettings.Language
+  name: Language
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_Language
+  commentId: P:WikiDotNet.WikiSearchSettings.Language
+  fullName: WikiDotNet.WikiSearchSettings.Language
+  nameWithType: WikiSearchSettings.Language
+- uid: WikiDotNet.WikiSearchSettings.Language*
+  name: Language
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_Language_
+  commentId: Overload:WikiDotNet.WikiSearchSettings.Language
+  isSpec: "True"
+  fullName: WikiDotNet.WikiSearchSettings.Language
+  nameWithType: WikiSearchSettings.Language
+- uid: WikiDotNet.WikiSearchSettings.Namespaces
   name: Namespaces
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_Namespaces
-  commentId: F:CreepysinStudios.WikiDotNet.WikiSearchSettings.Namespaces
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.Namespaces
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_Namespaces
+  commentId: F:WikiDotNet.WikiSearchSettings.Namespaces
+  fullName: WikiDotNet.WikiSearchSettings.Namespaces
   nameWithType: WikiSearchSettings.Namespaces
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId
+- uid: WikiDotNet.WikiSearchSettings.RequestId
   name: RequestId
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_RequestId
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_RequestId
+  commentId: P:WikiDotNet.WikiSearchSettings.RequestId
+  fullName: WikiDotNet.WikiSearchSettings.RequestId
   nameWithType: WikiSearchSettings.RequestId
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId*
+- uid: WikiDotNet.WikiSearchSettings.RequestId*
   name: RequestId
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_RequestId_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_RequestId_
+  commentId: Overload:WikiDotNet.WikiSearchSettings.RequestId
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.RequestId
+  fullName: WikiDotNet.WikiSearchSettings.RequestId
   nameWithType: WikiSearchSettings.RequestId
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit
+- uid: WikiDotNet.WikiSearchSettings.ResultLimit
   name: ResultLimit
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultLimit
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ResultLimit
+  commentId: P:WikiDotNet.WikiSearchSettings.ResultLimit
+  fullName: WikiDotNet.WikiSearchSettings.ResultLimit
   nameWithType: WikiSearchSettings.ResultLimit
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit*
+- uid: WikiDotNet.WikiSearchSettings.ResultLimit*
   name: ResultLimit
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultLimit_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ResultLimit_
+  commentId: Overload:WikiDotNet.WikiSearchSettings.ResultLimit
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultLimit
+  fullName: WikiDotNet.WikiSearchSettings.ResultLimit
   nameWithType: WikiSearchSettings.ResultLimit
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset
+- uid: WikiDotNet.WikiSearchSettings.ResultOffset
   name: ResultOffset
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultOffset
-  commentId: P:CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ResultOffset
+  commentId: P:WikiDotNet.WikiSearchSettings.ResultOffset
+  fullName: WikiDotNet.WikiSearchSettings.ResultOffset
   nameWithType: WikiSearchSettings.ResultOffset
-- uid: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset*
+- uid: WikiDotNet.WikiSearchSettings.ResultOffset*
   name: ResultOffset
-  href: api/CreepysinStudios.WikiDotNet.WikiSearchSettings.html#CreepysinStudios_WikiDotNet_WikiSearchSettings_ResultOffset_
-  commentId: Overload:CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset
+  href: api/WikiDotNet.WikiSearchSettings.html#WikiDotNet_WikiSearchSettings_ResultOffset_
+  commentId: Overload:WikiDotNet.WikiSearchSettings.ResultOffset
   isSpec: "True"
-  fullName: CreepysinStudios.WikiDotNet.WikiSearchSettings.ResultOffset
+  fullName: WikiDotNet.WikiSearchSettings.ResultOffset
   nameWithType: WikiSearchSettings.ResultOffset
