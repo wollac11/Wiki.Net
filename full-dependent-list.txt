@@ -1,0 +1,7 @@
+{"dependency_type":"metadata","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\api\\index.md","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\toc.yml"}
+{"dependency_type":"metadata","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\bexample.md","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\toc.yml"}
+{"dependency_type":"metadata","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\index.md","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\toc.yml"}
+{"dependency_type":"file","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\toc.yml","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\bexample.md"}
+{"dependency_type":"metadata","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\index.md","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\toc.yml"}
+{"dependency_type":"file","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\toc.yml","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\bexample.md"}
+{"dependency_type":"include","from_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\toc.yml","to_file_path":"D:\\Projects\\2020\\Wiki.Net\\docs\\guides\\toc.yml"}

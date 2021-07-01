@@ -8,7 +8,7 @@
     <title>Wiki.Net | Wiki.Net Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Wiki.Net | Wiki.Net Documentation ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -17,10 +17,9 @@
     <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
+    <meta property="docfx:rel" content="">
     
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -56,16 +55,26 @@
           </div>
         </div>
       </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="wikinet">Wiki.Net</h1>
 
-<p><a href="https://github.com/Voltstro-Studios/Wiki.Net/blob/Development/LICENSE.md"><img src="https://img.shields.io/github/license/Creepysin-Studios/Wiki.Net" alt="License"></a>
+<p><a href="/LICENSE.md"><img src="https://img.shields.io/github/license/Creepysin-Studios/Wiki.Net" alt="License"></a>
 <a href="https://www.nuget.org/packages/Wiki.Net/"><img src="https://img.shields.io/nuget/v/Wiki.Net" alt="NuGet"></a>
 <a href="https://www.nuget.org/packages/Wiki.Net/"><img src="https://img.shields.io/nuget/dt/Wiki.Net" alt="NuGet Download Count"></a>
-<a href="https://dev.azure.com/Voltstro-Studios/Wiki.Net/_build?definitionId=4"><img src="https://dev.azure.com/Voltstro-Studios/Wiki.Net/_apis/build/status/Voltstro-Studios.Wiki.Net?branchName=Development" alt="Azure Build"></a>
+<a href="https://dev.azure.com/Voltstro-Studios/Wiki.Net/_build/latest?definitionId=4&amp;branchName=master"><img src="https://img.shields.io/azure-devops/build/Voltstro-Studios/c4df32aa-4dfd-4b92-bf94-fe6c31c47b03/4?logo=azure-pipelines" alt="Build Status"></a>
 <a href="https://discord.voltstro.dev"><img src="https://img.shields.io/badge/Discord-Voltstro-7289da.svg?logo=discord" alt="Discord"></a></p>
 <p>Wiki.Net – An unofficial C# Wikipedia API</p>
 <h2 id="features">Features</h2>
@@ -86,7 +95,7 @@
 </code></pre>
 <p>You can also download the binaries from the <a href="https://github.com/Voltstro-Studios/Wiki.Net/releases">releases</a>.</p>
 <h3 id="example">Example</h3>
-<pre><code class="lang-c#">string searchString = &quot;Computer&quot;;
+<pre><code class="lang-csharp">string searchString = &quot;Computer&quot;;
 WikiSearchSettings searchSettings = new WikiSearchSettings
 	{RequestId = &quot;Request ID&quot;, ResultLimit = 5, ResultOffset = 2, Language = &quot;en&quot;};
 
@@ -133,9 +142,27 @@ Console.ReadLine();
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Voltstro-Studios/Wiki.Net/blob/master/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
@@ -150,12 +177,26 @@ Console.ReadLine();
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Voltstro Studios (c) 2019-2020
-            
+            <div class="pull-left">
+              Voltstro-Studios (c) 2019-2021
+              
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+        <script type="text/javascript" src="styles/toggle-theme.js"></script>
+      </footer>    </div>
     
     <script type="text/javascript" src="styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="styles/docfx.js"></script>

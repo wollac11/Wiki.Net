@@ -1,18 +1,27 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Projects/_Docs/Wiki.Net/docfx_project",
+  "source_base_path": "D:/Projects/2020/Wiki.Net/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/WikiDotNet.Error.yml",
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.Error.html",
-          "hash": "HzuGZ0CGrPlGr8OP6lVeVQ=="
+          "hash": "/x3ADgZR4o2UF9zFpCe0H5+AsbIgtEmR0ONHCjAgOZg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +30,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.SearchInfo.html",
-          "hash": "asH0H3PVWQoDEYpfkfk+kg=="
+          "hash": "3gbwGmJdlnFnuWgpLEkE9Vw7JHeXo+Cs/FOmrf/cIas="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +42,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.Warning.html",
-          "hash": "HUnPPbh8NRbklPIoz08t5w=="
+          "hash": "QaWzeNj6skUwcALNjGsv99koT+OkTNPV2hB9hvtIrWA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +54,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.WikiSearchQuery.html",
-          "hash": "o+RaX2c9uLRYHPm3Jzyabw=="
+          "hash": "B6B7rJrTBjSro6z+y2TPItGOPJVgsns4s38yVXu1Xic="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +66,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.WikiSearchResponse.html",
-          "hash": "NysWvJFmeN/+N+u1DMBuPg=="
+          "hash": "BW0jWoMh5SqAeESeSTHWrNJJugslUpkq985xFCtDvHg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +78,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.WikiSearchResult.html",
-          "hash": "Lu2P5EzaFeEYMPSzWV1MLQ=="
+          "hash": "FigWV9aK79hoRWiEcnnUh5N+TW52VBzTloij5LFEYgk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +90,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.WikiSearchSettings.html",
-          "hash": "Hsh997MQIDHQVy1Lr4iL8A=="
+          "hash": "XLbNCbrRy4Oy4fsct+J6AuMZne7EDAqFeddFAb0/AWg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +102,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.WikiSearcher.html",
-          "hash": "PiqBw02y1hDG8MIrisEXXQ=="
+          "hash": "VcXM1IRBahoLQnkHEr2QjPNd+g27CfK/Hz/fZVBlw48="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +114,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WikiDotNet.html",
-          "hash": "KieKMyszmbYk0zk7S0ehIA=="
+          "hash": "MSHWfQVSfRSnOLHeszFpeXPLUyeVpLzG+XvivQ5hO7c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +126,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "SB7dkHG/e265/3aUo5JgAw=="
+          "hash": "FaVp23qYosokdYTbLiNPKimE11nXOFdtEDbhDh4Ep3g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "QmbSh6qR7/l/WT4dSnZnkw=="
+          "hash": "KIr+ecJAVaXnK6xVXvGyZe76zjHgmSJ8PKDSodi8DME="
         }
       },
       "is_incremental": false,
@@ -152,10 +161,10 @@
       "output": {
         ".html": {
           "relative_path": "guides/bexample.html",
-          "hash": "IsuDaE9GPVlVclpTo6w1rA=="
+          "hash": "+Ny56/B9oDqaxKBSN3jpgsboE3xZLWgCIAS8qT1SP4A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -167,10 +176,10 @@
       "output": {
         ".html": {
           "relative_path": "guides/index.html",
-          "hash": "SGaQ30rDx/tcUDLcLzKGjA=="
+          "hash": "HX2ltEr9dtGOXHXixxJFInJh1G6XOSeT9VZKhc3rIW8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -179,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/toc.html",
-          "hash": "6/Tko771ZURHDZdun/o5Bg=="
+          "hash": "6Rx8KMcSiti7pMV45PrecedIZOknxB93uSNOAfiF5bs="
         }
       },
       "is_incremental": false,
@@ -202,10 +211,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "N2AIo55Huzrmbw2DE4VVVQ=="
+          "hash": "1sJ3PUQzprmj8LZCuPDLsz5F6gpr48NYufVGpYuX3nE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -214,7 +223,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "49MmBKLDVHk7uL0Dd+d+BQ=="
+          "hash": "OFZtiN3JI8Xc3GC49WlgQzgQsZLVsFSnNfVlSm6UzJ4="
         }
       },
       "is_incremental": false,
@@ -230,13 +239,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -247,7 +249,14 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 9
+          "skipped_file_count": 8
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -260,8 +269,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
